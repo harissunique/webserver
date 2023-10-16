@@ -13,7 +13,7 @@ content='''
 <h2>3. React </h2>
 </body>
 </html>
-'''
+'0''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
