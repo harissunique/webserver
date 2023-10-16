@@ -11,9 +11,11 @@ content='''
 <h2>1.Django</h2>
 <h2>2. MEAN Stack</h2>
 <h2>3. React </h2>
+<h2>4. Spring</h2>
+<h2>5. MERN Stack</h2>
 </body>
 </html>
-'0''
+'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -27,5 +29,3 @@ print("This is my webserver")
 server_address =('',80)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-
-
